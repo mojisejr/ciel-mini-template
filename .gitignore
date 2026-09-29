@@ -1,0 +1,16 @@
+# Raw local project material stays on this machine.
+/materials/*
+!/materials/README.md
+
+# Local editor and operating-system noise.
+.DS_Store
+.idea/
+.vscode/
+
+# Typical generated application content.
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
