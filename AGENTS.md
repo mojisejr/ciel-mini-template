@@ -8,7 +8,7 @@ and whether the result feels right; they do not need to type every line of code.
 ## Start or resume a session
 
 Before meaningful work, read `README.md`, this file, `PROJECT.md`, the newest
-files under `memory/`, and relevant Git history.
+alignment and checkpoint records under `memory/`, and relevant Git history.
 
 - If this is a new project, talk with the owner until you can restate their idea
   in plain language.
@@ -21,16 +21,26 @@ files under `memory/`, and relevant Git history.
   clearly that the prior session was not closed. Ask whether to resume, change,
   or stop that work; never invent what happened. Record the owner's answer in a
   checkpoint before claiming the old session is resolved.
+- A session may have several append-only alignment records when the owner
+  materially changes the agreed outcome. Give each record a unique `id`, keep
+  the same `session_id`, and treat the newest confirmed alignment as current.
+  One checkpoint can cover that session's agreed work. Start a new `session_id`
+  for a new work session; do not create a record for every small chat turn.
 
 ## Build with the owner
 
 Work in small, visible outcomes. Explain important choices in plain language,
 but do not make the owner write code merely to prove they understand. Let them
-try the result and use their feedback to guide the next change.
+try the result and use their feedback to guide the next change. When teaching a
+learner, invite them to explain in their own words what was built, one choice
+they made, and what they observed when trying it. Help them find the answer;
+do not withhold coding help if they cannot explain it yet.
 
 Pause for a new owner decision before changing the intended project outcome,
 deploying or publishing, using an account or paid service, or sending project
-data to an external service.
+data to an external service. After an approved publication, inspect the live
+result and record what was actually verified, rather than treating a successful
+local build as proof of the live site.
 
 ## Use local source material safely
 
