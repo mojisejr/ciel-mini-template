@@ -7,8 +7,8 @@
 
 ที่ [หน้า template บน GitHub](https://github.com/mojisejr/ciel-mini-template)
 กด **Use this template → Create a new repository** ตั้งชื่อโครงงานของตัวเอง
-แล้วเปิดโฟลเดอร์ของ repository ใหม่นั้นใน Codex งานและประวัติ Git ของแต่ละคน
-จะแยกกัน
+แล้ว clone repository ใหม่นั้นลงเครื่อง ก่อนเปิดโฟลเดอร์ที่ clone ใน Codex
+งานและประวัติ Git ของแต่ละคนจะแยกกัน
 
 ถ้ามี PDF, CSV หรือรูปที่อยากใช้ ให้วางใน `materials/` ของโครงงานตัวเอง
 แล้วบอก AI ว่าจะใช้ไฟล์ไหนเพื่ออะไร ไฟล์ดิบในโฟลเดอร์นี้ไม่ถูก commit
